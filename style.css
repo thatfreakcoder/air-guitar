@@ -5,8 +5,7 @@
     color: white;
 }
 
-video,
-canvas {
+video {
     min-height: 100vh;
     min-width: 100%;
     object-fit: cover;
@@ -29,6 +28,6 @@ canvas {
     left: 10%;
 }
 
-h3 {
+h2 {
     font-size: 65px;
 }
