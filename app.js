@@ -15,8 +15,6 @@ navigator.getUserMedia =
 const video = document.querySelector('#video');
 const audio = document.querySelector('#audio');
 let model;
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
 
 handTrack.startVideo(video)
     .then(status => {
