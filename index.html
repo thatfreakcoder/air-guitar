@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Guitar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="myCanvas" style="border:1px solid #d3d3d3; position: absolute; z-index: 9999;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+    <video id="video"></video>
+    <audio src="sounds/a-chord.mp3" id="audio"></audio>
+    <div class="notes">
+        <h2>A</h2>
+        <h2>B</h2>
+        <h2>C</h2>
+        <h2>E</h2>
+    </div>
+    <h2 class="drum">Drum</h2>
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
